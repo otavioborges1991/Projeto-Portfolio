@@ -1,0 +1,32 @@
+/* 
+  Variáveis para cores:
+  --fundo-principal
+  --texto
+  --texto-inverso
+  --destaque
+  --destaque-inverso
+  --fundo-card
+*/
+
+:root {
+  --fundo-principal: #C6C5B9;
+  --texto: #333333;
+  --texto-inverso: #ffffff;
+  --destaque: #62929E;
+  --destaque-inverso: #4A6D7C;
+  --fundo-card: #393A10;
+}
+
+
+body {
+  background-color: var(--fundo-principal);
+  color: var(--texto);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+bota.tema {
+  
+}
