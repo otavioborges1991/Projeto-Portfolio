@@ -17,6 +17,14 @@
   --fundo-card: #393A10;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 
 body {
   background-color: var(--fundo-principal);
@@ -26,7 +34,70 @@ body {
   padding: 0;
 }
 
-
-bota.tema {
-  
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--destaque);
+  color: var(--texto);
 }
+
+nav#menu {
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav#menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+nav#menu ul li a {
+  text-decoration: none;
+  color: var(--texto-inverso);
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+nav#menu ul li a:hover {
+  background-color: var(--destaque-inverso);
+  color: var(--texto);
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--destaque);
+  color: var(--texto-inverso);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+button.botao-tema {
+  background-color: var(--fundo-card);
+  border: none;
+  color: var(--texto-inverso);
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+
+
+}
+
