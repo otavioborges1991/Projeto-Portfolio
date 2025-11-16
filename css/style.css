@@ -79,10 +79,10 @@ nav#menu ul li a:hover {
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto 90vw auto;
+  gap: 20px;
+  margin-top: 20px;
 }
 
 
@@ -90,6 +90,7 @@ section#ficha {
   display: flex;
   flex-direction: column;
   background-color: var(--fundo-card);
+  justify-content: space-between;
   padding: 20px;
   border-radius: 10px;
   margin: 20px;
@@ -310,8 +311,26 @@ div#social a:hover {
   border-radius: 5px;
 }
 
+
+
 /* Estilos para telas maiores */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
+
+  main {
+    grid-template-columns: auto 300px 1fr auto;
+  }
+
+  section#ficha {
+    grid-column: 2/3;
+    height: fit-content;
+    position: sticky;
+    top: 80px;
+  }
+
+  section#detalhes {
+    grid-column: 3/4;
+  }
+
   #competencias {
     grid-template-columns: 1fr 1fr;
   }
