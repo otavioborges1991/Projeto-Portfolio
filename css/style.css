@@ -9,13 +9,13 @@
 */
 
 :root {
-  --fundo-principal: rgb(196, 196, 196);
+  --fundo-principal: rgb(241, 241, 241);
   --fundo-inverso: black;
-  --texto: black;
-  --texto-inverso: rgb(175, 175, 175);
-  --destaque: #3c4eb6;
-  --destaque-inverso: #05155a;
-  --fundo-card: #dddddd;
+  --texto: rgb(15, 15, 15);
+  --texto-inverso: rgb(236, 236, 236);
+  --destaque: #46006e;
+  --destaque-inverso: #7c06aa;
+  --fundo-card: #ceaed4;
 }
 
 html {
@@ -29,11 +29,20 @@ html {
 }
 
 body {
-  background-color: var(--fundo-principal);
   color: var(--texto);
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+}
+
+body.escuro {
+  background-color: var(--fundo-inverso);
+  color: var(--texto-inverso);
+}
+
+body.claro {
+  background-color: var(--fundo-principal);
+  color: var(--texto);
 }
 
 header {
@@ -222,7 +231,7 @@ div#social a:hover {
 
 #competencias .nome {
   font-weight: bold;
-  color: var(--texto);
+  color: var(--destaque);
 }
 
 #competencias .porcento {
@@ -240,8 +249,10 @@ div#social a:hover {
 #competencias .progresso {
   height: 100%;
   border-radius: 4px;
+  color: var(--texto-inverso);
   background-color: var(--destaque-inverso);
 }
+
 
 #formacao-container {
   display: flex;
