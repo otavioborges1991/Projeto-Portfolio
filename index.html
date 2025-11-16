@@ -6,16 +6,18 @@
     <title>Portfólio Otávio Vinicios Borges</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
-<script src="https://kit.fontawesome.com/d0517b7da9.js" crossorigin="anonymous"></script></head>
+    <script src="https://kit.fontawesome.com/d0517b7da9.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</head>
 <body>
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#projetos"><i class="fa-solid fa-bars-progress"></i></i></a></li>
-                <li><a href="#formacao"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#projetos"><i class="fa-solid fa-trowel-bricks"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-sun"></i></a></li>
+                <li><a class="link" href="#ficha"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a class="link" href="#competencias"><i class="fa-solid fa-bars-progress"></i>Competências</i></a></li>
+                <li><a class="link" href="#formacao"><i class="fa-solid fa-graduation-cap"></i>Formações</a></li>
+                <li><a class="link" href="#projetos"><i class="fa-solid fa-trowel-bricks"></i>Projetos</a></li>
+                <li><a class="link" href="#tema"><i class="fa-solid fa-sun"></i>Mudar Tema</a></li>
             </ul>
         </nav>
     </header>
@@ -24,7 +26,8 @@
             <img class="foto" src="images/foto-perfil250x250.jpg" alt="Foto de perfil Otávio Vinicios Borges">
             <h1 class="nome">Otávio Vinicios Borges</h1>
             <p class="descricao">
-                Desenvolvedor Full-stack Jr.
+                Aluno Full-stack.
+                Site em desenvolvimento.
             </p>
             <div id="social" class="margin">
                 <a href="https://www.linkedin.com/in/otavio-borges/"><i class="fa-brands fa-linkedin"></i></a>
@@ -41,7 +44,7 @@
                     </iframe>
                 </div>
             </article> <!-- Fim da article video --> 
-            <article id="competencia">
+            <article id="competencias">
                 <h2><i class="fa-solid fa-bars-progress"></i>Competências</h2>
                 <br>
                 <div class="item">
@@ -116,10 +119,10 @@
                     </progress>
                 </div>
             </article> <!-- Fim da article competência --> 
-            <article>
+            <article id="formacao">
                 <h2><i class="fa-solid fa-graduation-cap"></i>Formação</h2>
-                <div id="formacao">
-                    <div id="formacao">
+                <div >
+                    <div id="formacao-container">
                         <details class="curso">
                             <summary class="titulacao">
                                 Algoritmos e Lógica de Programação
@@ -200,8 +203,83 @@
                     </div>
                 </div>
             </article> <!-- Fim da article formação --> 
-            <article id="projetos">
 
+            <article id="projetos">
+                <h2>
+                    <i class="fa-solid fa-trowel-bricks"></i>Projetos
+                </h2>
+                
+                <div id="projeto-container">
+
+                    <div class="projeto"> <!-- Projeto 01 -->
+                        <img src="images/imagem-nao-disponivel-271x300.jpg" alt="projeto 01" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto vídeos</h3>
+                            <p>
+                                Projeto construido para treinar a inserção de video em nosso site.
+                            </p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, rerum. Eum itaque hic vel velit. Quidem quibusdam corrupti expedita adipisci neque sapiente quasi maiores laboriosam, recusandae deleniti a dicta. Neque.
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 02 -->
+                        <img src="images/imagem-nao-disponivel-271x300.jpg" alt="projeto 01" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto Cordel</h3>
+                            <p>
+                                Projeto construido para treinar o efeito paralax em imagems.
+                            </p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, rerum. Eum itaque hic vel velit. Quidem quibusdam corrupti expedita adipisci neque sapiente quasi maiores laboriosam, recusandae deleniti a dicta. Neque.
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 03 -->
+                        <img src="images/imagem-nao-disponivel-271x300.jpg" alt="projeto 01" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto Android</h3>
+                            <p>
+                                Projeto construido para treinar conteúdo com imagens dinamicas.
+                            </p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, rerum. Eum itaque hic vel velit. Quidem quibusdam corrupti expedita adipisci neque sapiente quasi maiores laboriosam, recusandae deleniti a dicta. Neque.
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 04 -->
+                        <img src="images/imagem-nao-disponivel-271x300.jpg" alt="projeto 01" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto Redes Sociais</h3>
+                            <p>
+                                Projeto construido para treinar a inserção de iframes em nosso site.
+                            </p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, rerum. Eum itaque hic vel velit. Quidem quibusdam corrupti expedita adipisci neque sapiente quasi maiores laboriosam, recusandae deleniti a dicta. Neque.
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+
+                </div>
             </article> <!-- Fim da article projetos --> 
         </section>
     </main>
@@ -210,6 +288,6 @@
             &copy; 2025 Otávio Vinicios Borges. Todos os direitos reservados.
         </p>
     </footer>
-    <script src="scripts/script.js"></script>
+    
 </body>
 </html>
