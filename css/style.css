@@ -102,52 +102,71 @@ footer {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+.popup {
+  position: absolute;
+  background-color: var(--cor-cartao-claro);
+  padding: 10px;
+  border: 2px solid var(--cor-detalhes);
+  z-index: 10;
+  overflow: auto;
+}
 
+.popup a::before {
+  content: "🎓";
+}
+
+@media screen and (min-width: 768px) {
   main {
     display: grid;
     grid-template-columns: auto 300px 1fr auto;
     padding: 50px;
   }
-
   header {
     font-size: 1.8em;
     letter-spacing: 1px;
   }
-
   #ficha {
     grid-column: 2/3;
     height: fit-content;
     position: sticky;
     top: 80px;
   }
-
   section#detalhes {
     grid-column: 3/4;
     width: 100%;
     margin: 20px;
   }
-
   #competencias {
     grid-template-columns: 1fr 1fr;
   }
-
   #projeto-container .projeto {
     flex-direction: row-reverse;
     justify-content: space-between;
   }
-
   #projeto-container .projeto-info {
     max-width: 80%;
   }
-
   #projeto-container .foto {
     aspect-ratio: 1/1;
     max-width: 20%;
     max-height: 200px;
   }
-
   article h2 {
     text-align: start;
+  }
+  #formacao-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+  /*#formacao-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  #formacao-container .curso {
+    width: 45%;*/
   }
 }

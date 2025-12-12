@@ -30,3 +30,7 @@
   color: var(--texto-inverso);
   background-color: var(--destaque-inverso);
 }
+
+img.icone-competencia {
+  height: 1em;
+}
