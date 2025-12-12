@@ -6,15 +6,14 @@
   gap: 15px;
 }
 #formacao-container .curso {
-  background-color: var(--fundo-principal);
-  border-left: 5px solid var(--destaque-inverso);
+  border-left: 5px solid var(--cor-detalhes);
   border-radius: 5px;
   padding-left: 15px;
   transition: border-width 0.5s, border-color 0.5s;
 }
 #formacao-container .curso:hover {
   border-left-width: 15px;
-  border-color: var(--destaque);
+  border-color: var(--cor-detalhes-alternativa);
   cursor: pointer;
 }
 #formacao-container .periodo {
@@ -31,12 +30,40 @@
   color: var(--texto);
 }
 
-#formacao-container ul {
+#formacao-container fieldset {
   max-width: fit-content;
   margin-top: 5px;
   padding-left: 20px;
-  list-style: none;
   border: 2px solid var(--cor-detalhes);
   border-radius: 5px;
   padding: 6px;
+
+}
+
+#formacao-container ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 5px;
+
+}
+
+#formacao-container ul  li  a {
+  color: var(--cor-detalhes-alternativa);
+  text-decoration: none;
+
+}
+
+#formacao-container ul  li  a:hover {
+  text-decoration: underline;
+
+}
+
+#formacao-container ul li a:visited {
+  color: var(--cor-detalhes);
+
+}
+
+#formacao-container legend {
+  font-weight: bold;
+  color: var(--destaque);
 }
