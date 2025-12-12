@@ -30,3 +30,13 @@
   font-size: 1em;
   color: var(--texto);
 }
+
+#formacao-container ul {
+  max-width: fit-content;
+  margin-top: 5px;
+  padding-left: 20px;
+  list-style: none;
+  border: 2px solid var(--cor-detalhes);
+  border-radius: 5px;
+  padding: 6px;
+}

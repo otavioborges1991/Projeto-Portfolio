@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://otavioborges1991.github.io/Projeto-Portfolio/sitemap.xml
