@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+:root {
+  --cor-texto-claro:rgb(0, 0, 0);
+  --cor-texto-escuro:rgb(226, 221, 221);
+
+  --cor-fundo-claro:rgb(121, 79, 79);
+  --cor-fundo-escuro:black;
+  --cor-cartao-claro:rgb(190, 155, 155);
+  --cor-cartao-escuro:rgb(48, 48, 48);
+
+  --cor-detalhes:#532626;
+  --cor-detalhes-alternativa:gold;
+}

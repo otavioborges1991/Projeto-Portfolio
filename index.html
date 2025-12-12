@@ -1,127 +1,163 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Otávio Vinicios Borges</title>
+    <meta name="description" content="Portfólio de Otávio Vinicios Borges, desenvolvedor Full-Stack em formação.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <!-- Tags para mídias sociais -->
+    <meta property="og:title" content="Portfólio de Otávio Vinicios Borges" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://otavioborges1991.github.io/Projeto-Portfolio/" />
+    <meta property="og:image" content="https://yourwebsite.com/image.jpg" />
+    <meta property="og:description" content="A brief description of your page." />
+
+    <!-- FIM de Tags de mídias sociais -->
+    <title>Portfólio de Otávio Vinicios Borges</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/d0517b7da9.js" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
 </head>
+
 <body>
+
     <header>
         <nav id="menu">
-            <ul>
-                <li><a class="link" href="#detalhes"><i class="fa-solid fa-house"></i>Home</a></li>
-                <li><a class="link" href="#competencias"><i class="fa-solid fa-bars-progress"></i>Competências</i></a></li>
-                <li><a class="link" href="#formacao"><i class="fa-solid fa-graduation-cap"></i>Formações</a></li>
-                <li><a class="link" href="#projetos"><i class="fa-solid fa-trowel-bricks"></i>Projetos</a></li>
-                <li><a class="link" id="botao-tema" href="#"><i class="fa-solid fa-moon"></i>Mudar Tema</a></li>
-            </ul>
+            <a class="link" href="#detalhes"><i class="fa-solid fa-house"></i>Home</a>
+            <a class="link" href="#competencias"><i class="fa-solid fa-bars-progress"></i>Competências</a>
+            <a class="link" href="#formacao"><i class="fa-solid fa-graduation-cap"></i>Formações</a>
+            <a class="link" href="#projetos"><i class="fa-solid fa-trowel-bricks"></i>Projetos</a>
+            <a class="link" id="botao-tema" href="#"><i class="fa-solid fa-moon"></i>Tema</a>
         </nav>
     </header>
+
     <main>
-        <section id="ficha">
-            <img class="foto" src="images/foto-perfil250x250.jpg" alt="Foto de perfil Otávio Vinicios Borges">
-            <h1 class="nome">Otávio Vinicios Borges</h1>
+
+        <aside id="ficha">
+            <img class="foto" src="images/eu.jpg" alt="Foto de perfil Otávio Vinicios Borges">
+            <h1 class="nome">Otávio Vinicios Borges <br> Desenvolvedor Full‑Stack em formação</h1>
             <p class="descricao">
-                Aluno Full-stack.
-                Site em desenvolvimento.
+                Sou estudante de Desenvolvimento Web pelo Estudonauta, com foco em criar interfaces modernas, funcionais e responsivas. Tenho experiência prática com HTML5, CSS3, JavaScript, PHP (procedural e POO), MySQL e Python, além de conhecimentos em SEO e boas práticas de desenvolvimento.
+                Atualmente desenvolvo projetos para aprimorar minhas habilidades e construir soluções reais. Se você precisa de uma landing page rápida, leve e bem estruturada, fico feliz em conversar.
             </p>
-            <div id="social" class="margin">
-                <a href="https://www.linkedin.com/in/otavio-borges/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/otavioborges1991"><i class="fa-brands fa-github"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=5547992385108"><i class="fa-brands fa-whatsapp"></i></a>
+            <div id="social" class="flex-row">
+                <a href="https://www.linkedin.com/in/otavio-borges/"><i class="fa-brands fa-linkedin soc-media"></i></a>
+                <a href="https://github.com/otavioborges1991"><i class="fa-brands fa-github soc-media"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5547992385108"><i class="fa-brands fa-whatsapp soc-media"></i></a>
+                <a href="https://www.instagram.com/otavioviniciosborges/"><i class="fa-brands fa-instagram soc-media"></i></a>
+                <a href="https://www.facebook.com/otaviovborges/"><i class="fa-brands fa-facebook soc-media"></i></a>
+                <a href="https://www.youtube.com/@OtavioBorges-1991"><i class="fa-brands fa-youtube soc-media"></i></a>
+                <a href="https://www.estudonauta.com/aluno/otavio-vinicios-borges/"><img class="soc-media" src="images/estudonauta.png" alt="Estudonauta" /></a>
             </div>
-        </section>
+        </aside>
         <section id="detalhes">
             <article id="video">
                 <h2><i class="fa-solid fa-handshake"></i>Apresentação</h2>
                 <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZSln5r9Pkgs?si=vuI3O2sVr4ATpO4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube-nocookie.com/embed/ZSln5r9Pkgs?si=vuI3O2sVr4ATpO4s"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                         Minha Apresentação em vídeo.
                     </iframe>
                 </div>
-            </article> <!-- Fim da article video --> 
+            </article> <!-- Fim da article video -->
             <article id="competencias">
                 <h2><i class="fa-solid fa-bars-progress"></i>Competências</h2>
-                <br>
-                <div class="item">
-                    <div class="info">
-                        <span class="nome">
-                            <i class="fa-brands fa-html5"></i>
-                            HTML5
-                        </span>
-                        <span class="porcento">
-                            20%
-                        </span>
+                <div class="flex-row">
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">
+                                <i class="fa-brands fa-html5"></i>
+                                HTML5
+                            </span>
+                            <span class="porcento">
+                                50%
+                            </span>
+                        </div>
+                        <progress class="barra" value="50" max="100">
+                            50%
+                        </progress>
                     </div>
-                    <progress class="barra" value="20" max="100">
-                        20%
-                    </progress>
-                </div>
-                <div class="item">
-                    <div class="info">
-                        <span class="nome">
-                            <i class="fa-brands fa-css3-alt"></i>
-                            CSS3
-                        </span>
-                        <span class="porcento">
-                            20%
-                        </span>
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">
+                                <i class="fa-brands fa-css3-alt"></i>
+                                CSS3
+                            </span>
+                            <span class="porcento">
+                                50%
+                            </span>
+                        </div>
+                        <progress class="barra" value="50" max="100">
+                            50%
+                        </progress>
                     </div>
-                    <progress class="barra" value="20" max="100">
-                        20%
-                    </progress>
-                    </progress>
-                </div>
-                <div class="item">
-                    <div class="info">
-                        <span class="nome">
-                            <i class="fa-brands fa-js"></i>
-                            Javascript
-                        </span>
-                        <span class="porcento">
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">
+                                <i class="fa-brands fa-js"></i>
+                                Javascript
+                            </span>
+                            <span class="porcento">
+                                10%
+                            </span>
+                        </div>
+                        <progress class="barra" value="10" max="100">
                             10%
-                        </span>
+                            </progess>
                     </div>
-                    <progress class="barra" value="10" max="100">
-                        10%
-                    </progess>
-                </div>
-                <div class="item">
-                    <div class="info">
-                        <span class="nome">
-                            <i class="fa-brands fa-php"></i>
-                            PHP
-                        </span>
-                        <span class="porcento">
-                            15%
-                        </span>
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">
+                                <i class="fa-brands fa-php"></i>
+                                PHP
+                            </span>
+                            <span class="porcento">
+                                40%
+                            </span>
+                        </div>
+                        <progress class="barra" value="40" max="100">
+                            40%
+                        </progress>
                     </div>
-                    <progress class="barra" value="15" max="100">
-                        15%
-                    </progress>
-                </div>
-                <div class="item">
-                    <div class="info">
-                        <span class="nome">
-                            <i class="fa-solid fa-database"></i>
-                            MySQL
-                        </span>
-                        <span class="porcento">
-                            10%
-                        </span>
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">
+                                <i class="fa-solid fa-database"></i>
+                                MySQL
+                            </span>
+                            <span class="porcento">
+                                20%
+                            </span>
+                        </div>
+                        <progress class="barra" value="20" max="100">
+                            20%
+                        </progress>
                     </div>
-                    <progress class="barra" value="10" max="100">
-                        10%
-                    </progress>
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome">
+                                <i class="fa-brands fa-python"></i>
+                                Python
+                            </span>
+                            <span class="porcento">
+                                30%
+                            </span>
+                        </div>
+                        <progress class="barra" value="30" max="100">
+                            30%
+                        </progress>
+                    </div>
                 </div>
-            </article> <!-- Fim da article competência --> 
+            </article> <!-- Fim da article competência -->
             <article id="formacao">
                 <h2><i class="fa-solid fa-graduation-cap"></i>Formação</h2>
-                <div >
+                <div>
                     <div id="formacao-container">
                         <details class="curso">
                             <summary class="titulacao">
@@ -132,6 +168,7 @@
                             </h3>
                             <p class="periodo">
                                 2025 - 2025
+                                <a href="https://www.estudonauta.com/validacao-de-certificado/?codigo_certificado=2D55-AD83-1">Certificado 00</a>
                             </p>
                         </details>
                         <details class="curso">
@@ -202,13 +239,13 @@
                         </details>
                     </div>
                 </div>
-            </article> <!-- Fim da article formação --> 
+            </article> <!-- Fim da article formação -->
 
             <article id="projetos">
                 <h2>
                     <i class="fa-solid fa-trowel-bricks"></i>Projetos
                 </h2>
-                
+
                 <div id="projeto-container">
 
                     <div class="projeto"> <!-- Projeto 01 -->
@@ -217,12 +254,14 @@
                             <p class="periodo">2025</p>
                             <h3 class="titulo">Projeto vídeos</h3>
                             <p>
-                                Projeto construido para treinar a inserção de video em nosso site.
+                                Projeto construido para demonstar a inserção de video em nosso site.
                             </p>
                             <details class="descricao">
                                 <summary>Saiba mais...</summary>
                                 <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, rerum. Eum itaque hic vel velit. Quidem quibusdam corrupti expedita adipisci neque sapiente quasi maiores laboriosam, recusandae deleniti a dicta. Neque.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, rerum. Eum itaque
+                                    hic vel velit. Quidem quibusdam corrupti expedita adipisci neque sapiente quasi
+                                    maiores laboriosam, recusandae deleniti a dicta. Neque.
                                 </p>
                             </details>
                         </div>
@@ -234,12 +273,14 @@
                             <p class="periodo">2025</p>
                             <h3 class="titulo">Projeto Cordel</h3>
                             <p>
-                                Projeto construido para treinar o efeito paralax em imagems.
+                                Projeto construído para demonstrar o efeito paralaxe em imagens.
                             </p>
                             <details class="descricao">
                                 <summary>Saiba mais...</summary>
                                 <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, rerum. Eum itaque hic vel velit. Quidem quibusdam corrupti expedita adipisci neque sapiente quasi maiores laboriosam, recusandae deleniti a dicta. Neque.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, rerum. Eum itaque
+                                    hic vel velit. Quidem quibusdam corrupti expedita adipisci neque sapiente quasi
+                                    maiores laboriosam, recusandae deleniti a dicta. Neque.
                                 </p>
                             </details>
                         </div>
@@ -251,12 +292,14 @@
                             <p class="periodo">2025</p>
                             <h3 class="titulo">Projeto Android</h3>
                             <p>
-                                Projeto construido para treinar conteúdo com imagens dinamicas.
+                                Projeto construido para demonstar conteúdo com imagens dinamicas.
                             </p>
                             <details class="descricao">
                                 <summary>Saiba mais...</summary>
                                 <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, rerum. Eum itaque hic vel velit. Quidem quibusdam corrupti expedita adipisci neque sapiente quasi maiores laboriosam, recusandae deleniti a dicta. Neque.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, rerum. Eum itaque
+                                    hic vel velit. Quidem quibusdam corrupti expedita adipisci neque sapiente quasi
+                                    maiores laboriosam, recusandae deleniti a dicta. Neque.
                                 </p>
                             </details>
                         </div>
@@ -268,19 +311,21 @@
                             <p class="periodo">2025</p>
                             <h3 class="titulo">Projeto Redes Sociais</h3>
                             <p>
-                                Projeto construido para treinar a inserção de iframes em nosso site.
+                                Projeto construido para demonstar a inserção de iframes em nosso site.
                             </p>
                             <details class="descricao">
                                 <summary>Saiba mais...</summary>
                                 <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, rerum. Eum itaque hic vel velit. Quidem quibusdam corrupti expedita adipisci neque sapiente quasi maiores laboriosam, recusandae deleniti a dicta. Neque.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, rerum. Eum itaque
+                                    hic vel velit. Quidem quibusdam corrupti expedita adipisci neque sapiente quasi
+                                    maiores laboriosam, recusandae deleniti a dicta. Neque.
                                 </p>
                             </details>
                         </div>
                     </div>
 
                 </div>
-            </article> <!-- Fim da article projetos --> 
+            </article> <!-- Fim da article projetos -->
         </section>
     </main>
     <footer>
@@ -288,5 +333,7 @@
             &copy; 2025 Otávio Vinicios Borges. Todos os direitos reservados.
         </p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
+
 </html>

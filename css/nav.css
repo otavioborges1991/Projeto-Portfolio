@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+nav#menu {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav#menu a {
+  text-decoration: none;
+  color: var(--cor-detalhes-alternativa);
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+nav#menu a:hover {
+  background-color: var(--cor-detalhes-alternativa);
+  color: var(--cor-detalhes);
+}

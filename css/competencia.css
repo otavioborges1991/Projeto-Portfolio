@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+#competencias {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+#competencias .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#competencias .nome {
+  font-weight: bold;
+  color: var(--destaque);
+}
+#competencias .porcento {
+  font-weight: bold;
+  color: var(--destaque);
+}
+#competencias .barra {
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  background-color: var(--fundo-principal);
+}
+#competencias .progresso {
+  height: 100%;
+  border-radius: 4px;
+  color: var(--texto-inverso);
+  background-color: var(--destaque-inverso);
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+article {
+  padding: 8px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+article h2 {
+  font-family: 'brush script mt', cursive;
+  background-color: var(--cor-detalhes);
+  padding: 5px;
+  color: var(--cor-detalhes-alternativa);
+  border-radius: 8px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+article#video {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+article#competencias {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  grid-column: 2;
+}

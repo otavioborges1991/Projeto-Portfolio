@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+section, aside {
+  background-color: var(--cor-cartao-claro);
+  border: 1px solid var(--cor-detalhes);
+  border-radius: 8px;
+}
+
+#ficha h1 {
+  font-size: 1.5em;
+  
+}
+
+section#detalhes {  
+  width: 100%;
+  margin: 0;
+}
+
+#ficha {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0;
+  grid-column: 2;
+}
+
+#ficha img.foto {
+  width: 150px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 50%;
+  border: 5px solid var(--cor-detalhes);
+  outline: 5px solid var(--cor-detalhes-alternativa);
+}
+
+#ficha h1 {
+  margin: auto;
+  padding: 0 10px 0 10px;
+  text-align: center;
+  color: var(--cor-detalhes-alternativa);
+  background-color: var(--cor-detalhes);
+  border-radius: 10px;
+  max-width: fit-content;
+  font-family: 'Brush Script MT', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#ficha p {
+  margin: 5px 0;
+}
+
