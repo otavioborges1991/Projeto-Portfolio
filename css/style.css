@@ -11,9 +11,9 @@
 @import url(nav.css);
 @import url(projeto-container.css);
 @import url(section.css);
-@import url(escuro.css);
 @import url(progress.css);
 @import url(video-container.css);
+@import url(escuro.css);
 
 
 html {
@@ -27,8 +27,8 @@ html {
 }
 
 body {
-  color: var(--cor-texto-claro);
-  background-color: var(--cor-fundo-claro);
+  color: var(--cor-texto);
+  background-color: var(--cor-fundo);
   font-family: "inter", "poppins", "roboto", sans-serif;
   margin: 0;
   padding: 0;
@@ -62,6 +62,22 @@ span.nome {
   margin-right: 10px;
 }
 
+aside {
+  background-color: var(--cor-cartao);
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid var(--cor-detalhes);
+  border-radius: 8px;
+}
+aside h2.nome {
+  background-color: var(--cor-detalhes);
+  color: var(--cor-detalhes-alternativa);
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 20px;
+}
 footer {
   color: var(--cor-detalhes-alternativa);
   background-color: var(--cor-detalhes);
@@ -90,6 +106,35 @@ footer {
   text-align: center;
 }
 
+/* SVG icons via mask: external SVG used as mask, color controlled by background-color */
+.svg-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: var(--cor-detalhes-alternativa);
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+.svg-icon.icon-estudonauta {
+  -webkit-mask-image: url('../images/estudonauta.svg');
+  mask-image: url('../images/estudonauta.svg');
+}
+.svg-icon.icon-copilot {
+  -webkit-mask-image: url('../images/Copilot-Logo preto 50x50.svg');
+  mask-image: url('../images/Copilot-Logo preto 50x50.svg');
+  width: 1em;
+  height: 1em;
+}
+.icone-competencia.svg-icon { vertical-align: middle; margin-right: 8px; }
+
+/* ícone Copilot em competências: herda cor do texto */
+#competencias .icon-copilot {
+  background-color: var(--cor-texto);
+}
 
 .soc-media:hover {
   border: 4px solid var(--cor-detalhes);
@@ -104,7 +149,7 @@ footer {
 
 .popup {
   position: absolute;
-  background-color: var(--cor-cartao-claro);
+  background-color: var(--cor-cartao);
   padding: 10px;
   border: 2px solid var(--cor-detalhes);
   z-index: 10;
@@ -167,6 +212,9 @@ footer {
     gap: 20px;
   }
   #formacao-container .curso {
-    width: 45%;*/
-  }
+    width: 45%;
+  }*/
+  
 }
+
+

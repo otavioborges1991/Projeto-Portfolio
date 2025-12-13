@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 section, aside {
-  background-color: var(--cor-cartao-claro);
+  background-color: var(--cor-cartao);
   border: 1px solid var(--cor-detalhes);
   border-radius: 8px;
 }
