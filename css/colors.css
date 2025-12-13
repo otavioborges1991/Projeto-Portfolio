@@ -1,35 +1,22 @@
 @charset "UTF-8";
 
 :root {
-  --cor-texto-claro: rgb(0, 0, 0);
-  --cor-texto-escuro: rgb(226, 221, 221);
-  /* base neutra usada por todo o CSS; aponta para o tema claro por padrão */
-  --cor-texto: var(--cor-texto-claro);
-
-  --cor-fundo-claro: rgb(121, 79, 79);
-  --cor-fundo-escuro: black;
-  --cor-fundo: var(--cor-fundo-claro);
-
-  --cor-cartao-claro: rgb(190, 155, 155);
-  --cor-cartao-escuro: #251111;
-  --cor-cartao: var(--cor-cartao-claro);
-
+  --cor-texto: rgb(0, 0, 0);
+  --cor-fundo: rgb(121, 79, 79);
+  --cor-cartao: rgb(190, 155, 155);
   --cor-detalhes: #532626;
-  --cor-detalhes-escuro: #1f0e0e;
   --cor-detalhes-alternativa: gold;
-  --cor-detalhes-alternativa-escuro: rgb(150, 127, 1);
 }
 
 body.escuro {
   /* sobrescreve as variáveis base para o tema escuro. Dessa forma qualquer
      uso de `var(--cor-texto)`, `var(--cor-fundo)` ou `var(--cor-cartao)` vai
      refletir o tema escuro sem mudar seletores individuais. */
-  --cor-texto: var(--cor-texto-escuro);
-  --cor-fundo: var(--cor-fundo-escuro);
-  --cor-cartao: var(--cor-cartao-escuro);
-  --cor-detalhes: var(--cor-detalhes-escuro);
-  --cor-detalhes-alternativa: var(--cor-detalhes-alternativa-escuro);
-
+  --cor-texto: rgb(226, 221, 221);
+  --cor-fundo: black;
+  --cor-cartao: #251111;
+  --cor-detalhes: #1f0e0e;
+  --cor-detalhes-alternativa: rgb(150, 127, 1);
   color: var(--cor-texto);
   background-color: var(--cor-fundo);
 }
