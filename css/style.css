@@ -86,6 +86,12 @@ footer {
   width: 100%;
 }
 
+p.texto-ajuda {
+  color: var(--cor-texto);
+  font-family: 'inter', 'poppins', 'roboto', sans-serif;
+  font-size: 0.6em;
+}
+
 #botao-tema {
   cursor: pointer;
   color: var(--cor-detalhes-alternativa);
@@ -141,7 +147,7 @@ footer {
 }
 
 .descricao {
-  margin-top: 10px;
+  margin: 10px;
   font-size: 0.9em;
   line-height: 1.4em;
   text-align: center;
@@ -151,14 +157,21 @@ footer {
   position: absolute;
   background-color: var(--cor-cartao);
   padding: 10px;
-  border: 2px solid var(--cor-detalhes);
+  border: 2px solid var(--cor-detalhes-alternativa);
   z-index: 10;
   overflow: auto;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.397);
 }
 
 .popup a::before {
   content: "🎓";
 }
+
+.float-right {
+  float: left;
+}
+
+
 
 @media screen and (min-width: 768px) {
   main {
@@ -214,6 +227,9 @@ footer {
   #formacao-container .curso {
     width: 45%;
   }*/
+  .float-right {
+  float: right;
+}
   
 }
 

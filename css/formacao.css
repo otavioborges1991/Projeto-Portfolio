@@ -34,7 +34,7 @@
   max-width: fit-content;
   margin-top: 5px;
   padding-left: 20px;
-  border: 2px solid var(--cor-detalhes);
+  border: 2px solid var(--cor-detalhes-alternativa);
   border-radius: 5px;
   padding: 6px;
 
@@ -65,5 +65,5 @@
 
 #formacao-container legend {
   font-weight: bold;
-  color: var(--destaque);
+  color: var(--cor-detalhes-alternativa);
 }
