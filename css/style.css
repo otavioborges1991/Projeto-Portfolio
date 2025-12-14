@@ -167,7 +167,7 @@ p.texto-ajuda {
   content: "🎓";
 }
 
-.float-right {
+.float {
   float: left;
 }
 
@@ -227,7 +227,7 @@ p.texto-ajuda {
   #formacao-container .curso {
     width: 45%;
   }*/
-  .float-right {
+  .float {
   float: right;
 }
   
