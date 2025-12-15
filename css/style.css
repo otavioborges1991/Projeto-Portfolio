@@ -171,6 +171,15 @@ p.texto-ajuda {
   float: left;
 }
 
+.projeto-titulo {
+  text-decoration: none;
+  color: var(--cor-detalhes-alternativa);
+  font-weight: bold;
+}
+
+.projeto-titulo:visited {
+  color: var(--cor-detalhes);
+}
 
 
 @media screen and (min-width: 768px) {
@@ -208,6 +217,7 @@ p.texto-ajuda {
     aspect-ratio: 1/1;
     max-width: 20%;
     max-height: 200px;
+    object-fit: contain;
   }
   article h2 {
     text-align: start;
