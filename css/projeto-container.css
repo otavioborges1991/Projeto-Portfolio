@@ -28,3 +28,8 @@
   overflow: hidden;
   border-radius: 5px;
 }
+
+body.escuro #projeto-container a:visited {
+  color: rgb(121, 79, 79);
+  
+}
