@@ -3,7 +3,7 @@
 nav#menu {
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 nav#menu a {
@@ -12,6 +12,7 @@ nav#menu a {
   font-weight: bold;
   font-size: small;
   border-radius: 5px;
+  margin: 2px;
   transition: background-color 0.5s, color 0.5s;
 }
 

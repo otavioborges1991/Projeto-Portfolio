@@ -231,7 +231,7 @@ p.texto-ajuda {
   }
   nav#menu a {
     font-size: 0.8em;
-
+    gap: 3px;
 }
 
 
