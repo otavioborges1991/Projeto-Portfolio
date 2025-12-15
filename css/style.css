@@ -217,16 +217,6 @@ p.texto-ajuda {
     grid-template-columns: auto auto;
     gap: 20px;
   }
-  /*#formacao-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 20px;
-  }
-  #formacao-container .curso {
-    width: 45%;
-  }*/
   .float {
   float: right;
 }
