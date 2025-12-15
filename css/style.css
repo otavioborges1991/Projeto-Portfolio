@@ -227,8 +227,14 @@ p.texto-ajuda {
     gap: 20px;
   }
   .float {
-  float: right;
+    float: right;
+  }
+  nav#menu a {
+    font-size: 0.8em;
+
 }
+
+
   
 }
 
