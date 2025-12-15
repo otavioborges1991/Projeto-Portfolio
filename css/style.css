@@ -229,6 +229,10 @@ p.texto-ajuda {
   .float {
     float: right;
   }
+
+  nav#menu {
+    gap: 15px;
+  }
   nav#menu a {
     font-size: 0.8em;
     gap: 3px;
