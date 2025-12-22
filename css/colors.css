@@ -1,22 +1,22 @@
 @charset "UTF-8";
 
 :root {
-  --cor-texto: rgb(0, 0, 0);
-  --cor-fundo: rgb(121, 79, 79);
-  --cor-cartao: rgb(190, 155, 155);
-  --cor-detalhes: #532626;
-  --cor-detalhes-alternativa: gold;
+  --cor-texto: black;
+  --cor-fundo: rgb(243, 242, 242);
+  --cor-cartao: lightgrey;
+  --cor-detalhes: rgb(55, 55, 167);
+  --cor-detalhes-alternativa: rgb(179, 153, 8);
 }
 
 body.escuro {
   /* sobrescreve as variáveis base para o tema escuro. Dessa forma qualquer
      uso de `var(--cor-texto)`, `var(--cor-fundo)` ou `var(--cor-cartao)` vai
      refletir o tema escuro sem mudar seletores individuais. */
-  --cor-texto: rgb(226, 221, 221);
+  --cor-texto: rgb(243, 242, 242);
   --cor-fundo: black;
-  --cor-cartao: #251111;
-  --cor-detalhes: #1f0e0e;
-  --cor-detalhes-alternativa: rgb(150, 127, 1);
+  --cor-cartao: rgb(20, 20, 20);
+  --cor-detalhes: rgb(2, 2, 73);
+  --cor-detalhes-alternativa: rgb(235, 201, 8);
   color: var(--cor-texto);
   background-color: var(--cor-fundo);
 }
