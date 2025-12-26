@@ -2,10 +2,10 @@
 
 :root {
   --cor-texto: black;
-  --cor-fundo: rgb(243, 242, 242);
-  --cor-cartao: lightgrey;
+  --cor-fundo: rgb(255, 255, 255);
+  --cor-cartao: rgb(233, 231, 231);
   --cor-detalhes: rgb(55, 55, 167);
-  --cor-detalhes-alternativa: rgb(179, 153, 8);
+  --cor-detalhes-alternativa: rgb(156, 154, 154);
 }
 
 body.escuro {
@@ -16,7 +16,7 @@ body.escuro {
   --cor-fundo: black;
   --cor-cartao: rgb(20, 20, 20);
   --cor-detalhes: rgb(2, 2, 73);
-  --cor-detalhes-alternativa: rgb(235, 201, 8);
+  --cor-detalhes-alternativa: rgb(168, 168, 168);
   color: var(--cor-texto);
   background-color: var(--cor-fundo);
 }
